@@ -1,22 +1,14 @@
-# adherentsplus
-New adherent module for Dolibarr
-Integration dans Dolibarr V8 soumise
+Nuevo módulo de adherentes para DolibarrIntegration en Dolibarr V8 presentado.
+Lo que ya hace este módulo:
+cálculo del costo según la fecha, derecho de entrada de la cuota según el modo de flujo, o prorrateo anual, trimestral, anual
+trazabilidad del tipo de membresía en las cuotas relacionadas con el miembro
+mejora de las API REST
 
-Ce que fait déjà ce module:
-- calcul du coût selon date, droit d'entrée de la cotisation selon mode flux, ou prorata annuel, trimestriel, annuel
-- traçabilité du type d'adhésion ds les cotisations liées à l'adhérent
-- amélioration des API REST
+En proceso de realización (funcionamiento parcial)
+adhesión de grupo / familia (miembro principal que se facturará con miembros secundarios relacionados),
 
-En cours de réalisation (fonctionement partiel)
-- adhésion de groupe/famille (adhérent principal qui sera facturé avec adhérents secondaires liés), 
-
-Les modifications de la base de données seront prochainement incluses dans le plugin. En attendant...
-
-For install / Pour installation
-download then unzip then copy in htdocs/custom folder
-
-A partir de la version 12.0.3 pour Dolibarr 12.0.3, toutes les bases de données seront mise à jour automatiquement.
-From v12.0.3 for Dolibarr 12.0.3, all databases will be updated automatically.
-
-Merci de désactiver puis récctiver le module en mettant à jour.
+Las modificaciones de la base de datos se incluirán próximamente en el complemento. Mientras tanto...
+Para instalar / Para instalación, descargue, descomprima y copie en la carpeta htdocs / personalizada
+A partir de la versión 12.0.3 para Dolibarr 12.0.3, todas las bases de datos se actualizarán automáticamente.
+Por favor, desactive y luego reactive el módulo al actualizar.our.
 Please disable then enable adherentsplus when updating.
